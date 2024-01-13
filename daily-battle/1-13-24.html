@@ -1,0 +1,51 @@
+<div class='wrapper'>
+    <p></p>
+    <p></p>
+    <p class='s'></p>
+    <p class='s'></p>
+    <p></p>
+    <p></p>
+  </div>
+  <style>
+    * {
+      margin: 0;
+    }
+    .s {
+      background: #6867d4;
+      border: 0px;
+      width: 90px;
+      height: 40px;
+    }
+    body {
+      background:#7bafde;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .wrapper {
+      height: 200px;
+      width: 200px;
+      display: grid;
+      grid-template-columns: repeat(2, 110px);
+      align-content: space-between;
+    }
+    p {
+      width: 00px;
+      height: 00px;
+      border-bottom: solid #000039 60px;
+      border-right: solid transparent 90px;
+    }
+    p:nth-of-type(2) {
+      transform: scaleX(-1)
+    }
+    p:nth-of-type(5) {
+      rotate: 180deg;
+      transform: scaleX(-1)
+    }
+    p:nth-of-type(6) {
+      rotate: 180deg;
+    }
+  
+  </style>
+  
+  
